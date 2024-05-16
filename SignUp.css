@@ -1,0 +1,37 @@
+#signup_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgb(73, 227, 73) 60%,rgb(113, 240, 113));
+}
+
+#signup_cont{
+    text-align: center;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #333;
+    box-shadow: 0 0 20px rgb(239, 250, 13);
+}
+
+
+#signup_cont form{
+    display: flex;
+    flex-direction: column;
+}
+
+#signup_cont input[type="text"],
+#signup_cont input[type="email"],
+#signup_cont input[type="password"] {
+    padding: 10px;
+    margin-bottom: 4%;
+    background-color: rgb(203, 248, 203);
+}
+
+#signup_cont button{
+    padding: 15px;
+    background-color: rgb(46, 209, 46);
+    width: 100%;
+}
